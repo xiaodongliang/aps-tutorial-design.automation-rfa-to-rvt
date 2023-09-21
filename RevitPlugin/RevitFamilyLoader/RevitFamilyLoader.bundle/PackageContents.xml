@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage Name="RevitDesignAutomation" Description="Load Revit Family Addin" Author="aps.help@autodesk.com">
+	<CompanyDetails Name="Autodesk, Inc" Url="http://learnforge.autodesk.io" Email="aps.help@autodesk.com"/>
+	<Components Description="Load Revit Family Addin">
+		<RuntimeRequirements SeriesMax="R2024" SeriesMin="R2024" Platform="Revit" OS="Win64"/>
+		<ComponentEntry LoadOnRevitStartup="True" LoadOnCommandInvocation="False" AppDescription="Load Revit Family ito RVT file" ModuleName="./Contents/RevitFamilyLoader.addin" Version="1.0.0" AppName="RevitFamilyLoader"/>
+	</Components>
+</ApplicationPackage>

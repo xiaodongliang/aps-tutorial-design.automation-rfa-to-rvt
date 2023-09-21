@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+	<AddIn Type="DBApplication">
+		<Name>RevitFamilyLoader</Name>
+		<FullClassName>RevitFamilyLoader.Command</FullClassName>
+		<Text>RevitFamilyLoader</Text>
+		<Description>Load Revit Family ito RVT file</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>.\RevitFamilyLoader.dll</Assembly>
+		<AddInId>8CFE8CB3-0E83-469B-80B1-E306D35A0377</AddInId>
+		<VendorId>ADSK</VendorId>
+		<VendorDescription>Autodesk, Inc, www.autodesk.com</VendorDescription>
+	</AddIn>
+</RevitAddIns>
